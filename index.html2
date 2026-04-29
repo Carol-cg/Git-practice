@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+<h1>  Heading </h1>
+<h2>  Hello </h2>
+<h3>  Hello </h3>  
+<h4>  Hello </h4>
+<h5>  Hello </h5>
+<h6>  Hello </h6>
+
+<p> This is a paragraph </p>
+<p>Lorem ipsum dolor sit amet consectetur.</p>
+<h2>This is my Article </h2>
+<article> Lorem ipsum dolor sit amet consectetur.</article>
+<br>
+<button> Click me </button>
+<br>
+<a href="https://oceanusadventure.com/beaver-falls-havasupai/"> Click to Google </a>
+<br>
+<img src="images.jpg" alt="Image of beaver falls">
+
+
+
+
+</body>
+</html>
