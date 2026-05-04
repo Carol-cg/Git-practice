@@ -1,0 +1,52 @@
+body{
+    font-family: Arial ;
+    background-color: lightgoldenrodyellow;
+
+}
+
+h1{
+    color: darkslategray;
+    text-align: center;
+    font-family: Arial;
+}
+
+p{color: darkslategray;
+    text-align: center;
+    font-family: Arial;
+}
+
+button{ 
+    background-color:white;
+    color: darkslategray;
+    padding: 10px;
+}
+
+.first{
+color:darkslategray;
+text-align: center;
+}
+
+.second{
+    color: darkslategray;
+    text-align: center;
+}
+
+#first{
+    color: darkslategray;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.box{
+
+   border: 2px solid darkgrey; 
+   margin: 20px;
+   padding:20px;
+   background-color:white ;
+
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
