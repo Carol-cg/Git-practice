@@ -1,52 +1,143 @@
-body{
-    font-family: Arial ;
-    background-color: lightgoldenrodyellow;
-
-}
-
-h1{
-    color: darkslategray;
-    text-align: center;
-    font-family: Arial;
-}
-
-p{color: darkslategray;
-    text-align: center;
-    font-family: Arial;
-}
-
-button{ 
-    background-color:white;
-    color: darkslategray;
-    padding: 10px;
-}
-
-.first{
-color:darkslategray;
-text-align: center;
-}
-
-.second{
-    color: darkslategray;
+/*NAVIGATION BAR*/
+.navbar {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 15px;
     text-align: center;
 }
 
-#first{
-    color: darkslategray;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-size: 18px;
+}
+
+.navbar a:hover {
+    color: lightgray;
 }
 
 
-.box{
 
-   border: 2px solid darkgrey; 
-   margin: 20px;
-   padding:20px;
-   background-color:white ;
+nav-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body::before{
+    content:"" ;
+    position: fixed;
+    inset: 0;
+
+   background-image:url("Havasu-Falls.jpg");
+   background-size:cover;
+   background-position:center;
+   background-repeat:  no-repeat ;
+
+   filter: grayscale(100%)brightness(120%)contrast(75%);
+
+   z-index: -1;
 
 }
 
 .container{
-    display: flex;
-    justify-content: space-between;
+ width: 80%;
+ max-width:900px;
+ margin-left:40px;
+ text-align: center;
+}
+
+/*Header*/
+ .carols-bio-page{
+    background-color:white ;
+    padding: 15px;
+    border-radius: 12px;
+    font-size: 3rem;
+    color: white;
+}
+
+/*profile image*/
+.profile-section { 
+margin: 20px 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+.profile-section img {
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+
+/*ABOUT ME BOX*/
+.about-box {
+    background-color: rgba(255, 255, 255, 0.85);
+    width: 50%;
+    margin-left: 40px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/*interest section*/
+.interests {
+    
+    width: 300px;
+    margin: 20px auto;
+    padding: 15px;
+    border-radius: 10px;
+
+}
+
+
+
+.interests-box {
+    max-width:  300px;;
+    margin: auto;
+    text-align: left;
+    list-style-position: inside;
+ 
+}
+ /*LIST BOXES*/
+.list-box {
+    background-color: rgba(255,255,255,0.75);
+    width: 50%;
+    margin: 20px auto;
+    padding: 8px 20px;
+    border-radius: 10px;
+    margin-left: 40px;
+}
+
+
+.about-me,
+.favorite-places{
+    margin-left: 80px;
+}
+
+
+
+
+
+
+/* CENTER BUTTON AT BOTTOM */
+.button-container {
+    text-align:left;
+    margin-top: 30px;
+
+}
+
+button {
+    display: block;
+    margin-left: 40px;
+    margin-top: 30px;
+    padding: 10px 20px;
+    font-size: 16px;
 }
